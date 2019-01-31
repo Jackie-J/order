@@ -120,8 +120,8 @@
 								<td align="center">${category.cid}</td>
 								<td>${category.cname}</td>
 								<td>
-									<input type = "button" value = "删除" onclick="javascript:if(confirm('确认删除${category.cname}?'))window.location.href='/deleteCategory/${category.cid}'">
-									<input type = "button" value = "更新" onclick="window.location.href='/editCategory/${category.cid}'">
+									<input type = "button" value = "删除" onclick="javascript:if(confirm('确认删除${category.cname}?'))window.location.href='deleteCategory/${category.cid}'">
+									<input type = "button" value = "更新" onclick="window.location.href='editCategory/${category.cid}'">
 								</td>
 							</tr>
 						</c:forEach>
@@ -152,22 +152,22 @@
 		<!--[if !IE]> -->
 
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='../assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
 		</script>
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='../assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
 </script>
 <![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='../assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+			if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 		</script>
-		<script src="../assets/js/bootstrap.min.js"></script>
-		<script src="../assets/js/typeahead-bs2.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
@@ -175,19 +175,19 @@
 		  <script src="../assets/js/excanvas.min.js"></script>
 		<![endif]-->
 
-		<script src="../assets/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="../assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="../assets/js/jquery.slimscroll.min.js"></script>
-		<script src="../assets/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="../assets/js/jquery.sparkline.min.js"></script>
-		<script src="../assets/js/flot/jquery.flot.min.js"></script>
-		<script src="../assets/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="../assets/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="assets/js/jquery.slimscroll.min.js"></script>
+		<script src="assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="assets/js/jquery.sparkline.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="../assets/js/ace-elements.min.js"></script>
-		<script src="../assets/js/ace.min.js"></script>
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
 
